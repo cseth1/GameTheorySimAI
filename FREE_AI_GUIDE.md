@@ -2,7 +2,40 @@
 
 ## 🎯 Choose Your Experience
 
-### 1. 🤖 Simple AI (Instant Start - Recommended)
+### 1. ⚪ Clean UI (Recommended - New!)
+```bash
+streamlit run CleanUI_PrisonersDilemma.py
+```
+**Perfect for:** Everyone! Maximum readability and clarity
+- ✅ Clean black & white interface
+- ✅ Easy to read text and layouts
+- ✅ Colorful charts for data visualization
+- ✅ Professional and accessible design
+- ✅ Enhanced AI personalities (5 types)
+
+### 2. 🚀 Modern UI (Dark Theme)
+```bash
+streamlit run ModernUI_PrisonersDilemma.py
+```
+**Perfect for:** Dark theme lovers, modern design enthusiasts
+- ✅ Beautiful glassmorphism design
+- ✅ Enhanced AI personalities (5 types)
+- ✅ Real-time interactive charts
+- ✅ Advanced agent reasoning
+- ✅ Professional UI/UX
+
+### 3. ✨ Premium UI (Advanced)
+```bash
+streamlit run PremiumUI_PrisonersDilemma.py
+```
+**Perfect for:** Researchers, advanced users, presentations
+- ✅ Cutting-edge design with animations
+- ✅ Real-time simulation updates
+- ✅ Emotional AI with mood tracking
+- ✅ Trust level analysis
+- ✅ Multiple visualization modes
+
+### 4. 🤖 Simple AI (Classic)
 ```bash
 streamlit run SimpleAIPrisonersDilemma.py
 ```
@@ -12,7 +45,7 @@ streamlit run SimpleAIPrisonersDilemma.py
 - ✅ No external dependencies
 - ✅ Beautiful visualizations
 
-### 2. 🧠 Advanced Free AI (Real Neural Networks)
+### 5. 🧠 Advanced Free AI (Neural Networks)
 ```bash
 streamlit run FreeAIPrisonersDilemma.py
 ```
@@ -22,40 +55,75 @@ streamlit run FreeAIPrisonersDilemma.py
 - ✅ Multiple model options
 - ✅ Still completely free
 
-### 3. 🎲 Rule-Based Agents (Classic Strategies)
-```bash
-streamlit run RuleBasedStreamlit.py
-```
-**Perfect for:** Learning game theory, strategy comparison, tournaments
-- ✅ Classic strategies (Tit-for-Tat, etc.)
-- ✅ Tournament mode
-- ✅ Deterministic behavior
-- ✅ Educational insights
-
 ## 🏃‍♂️ 30-Second Start
 
 1. **Install Python packages:**
 ```bash
-pip install streamlit pandas numpy matplotlib seaborn altair
+pip install streamlit pandas numpy plotly matplotlib seaborn altair
 ```
 
-2. **Run the simple AI:**
+2. **Run the quick launcher:**
 ```bash
-streamlit run SimpleAIPrisonersDilemma.py
+python quick_start.py
 ```
 
-3. **Open browser:** http://localhost:8503
+3. **Or directly run your preferred interface:**
+```bash
+streamlit run CleanUI_PrisonersDilemma.py
+```
 
-4. **Click "Run Simple AI Simulation"** and watch the magic! 🎉
+4. **Open browser:** http://localhost:8501
+
+5. **Click "Run Enhanced Simulation"** and watch the magic! 🎉
+
+## 🚀 Super Quick Start (One Command)
+```bash
+# All-in-one command
+pip install streamlit pandas numpy plotly && streamlit run CleanUI_PrisonersDilemma.py
+```
 
 ## 🎮 Available Applications
 
-| Application | Description | Setup Time | AI Quality |
-|-------------|-------------|------------|------------|
-| **Simple AI** | Rule-based personalities | 0 seconds | ⭐⭐⭐⭐ |
-| **Free AI** | Neural network models | 1-2 minutes | ⭐⭐⭐⭐⭐ |
-| **Rule-Based** | Classic strategies | 0 seconds | ⭐⭐⭐ |
-| **Original** | OpenAI GPT-4 | Needs API key | ⭐⭐⭐⭐⭐ |
+| Application | Description | Setup Time | AI Quality | UI Design |
+|-------------|-------------|------------|------------|-----------|
+| **Clean UI** | Black & white, easy to read | 0 seconds | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **Modern UI** | Clean, professional interface | 0 seconds | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **Premium UI** | Advanced glassmorphism design | 0 seconds | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **Simple AI** | Rule-based personalities | 0 seconds | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **Free AI** | Neural network models | 1-2 minutes | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| **Original** | OpenAI GPT-4 | Needs API key | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+
+## 🔥 New Features
+
+### Clean UI Features (NEW!)
+- **Black & White Design**: Maximum readability and accessibility
+- **Easy-to-Read Text**: Clean typography and high contrast
+- **Colorful Charts**: Vibrant data visualizations with green, blue, red lines
+- **Professional Layout**: Minimal distractions, focus on content
+- **Enhanced AI Personalities**: 5 different agent types with detailed reasoning
+### Modern UI Features
+- **Glassmorphism Design**: Beautiful frosted glass effects
+- **Enhanced AI Personalities**: 5 different agent types
+- **Real-time Analytics**: Live updating charts and metrics
+- **Professional Layout**: Clean, modern interface design
+- **Advanced Visualizations**: Interactive Plotly charts
+
+### Premium UI Features  
+- **Emotional AI**: Agents with mood tracking and emotional states
+- **Trust Level Analysis**: Dynamic trust calculation between agents
+- **Real-time Simulation**: Watch games unfold in real-time
+- **Advanced Psychology**: Detailed emotional and trust analytics
+- **Gradient Animations**: Smooth animations and transitions
+- **Multiple Export Formats**: CSV, JSON, and markdown reports
+
+### Enhanced AI Personalities
+- **Rational**: 🧠 Logic-based, calculates expected values
+- **Cooperative**: 🤝 Trusting, forgiving, promotes mutual benefit  
+- **Suspicious**: 🛡️ Defensive, requires proof of trustworthiness
+- **Emotional**: 😊 Mood-driven, affected by recent outcomes
+- **Adaptive**: 🔄 Pattern recognition, learning strategy
+- **Aggressive**: ⚡ Competitive, dominance-focused
+- **Pacifist**: 🕊️ Peace-loving, avoids conflict
 
 ## 🔥 Demo Features
 
